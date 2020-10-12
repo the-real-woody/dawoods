@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+li, a {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.nav_link li a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.nav_link li a:hover {
+  color: #0088a9;
+}
+
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: Lato;
+}
+h1{
+  font-family: Lato;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: Lato;
+  color: pink;
+  font-weight: 400;
+  font-size: 20px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/shoulder.jpg");
+  background-size: cover;
+  padding: 50px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  width: auto;
+  height: 500px;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.9;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  width: auto;
+  display: grid;
+  justify-items: center;
+
+}
+
